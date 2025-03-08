@@ -1,0 +1,66 @@
+<?php
+    require '../haruhi.php';
+    require '../counter/counter.php';
+?>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>SOS団</title>
+
+    <?php counter_token(); ?>
+    <script src="counter/counter.js"></script>
+
+    <style>
+        td {
+            font-family: "ＭＳ Ｐゴシック", "Osaka";
+            font-size: 14px;
+            font-style: normal;
+            line-height: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%">
+        <tr>
+            <br><br>
+            <td align="center">あなたは<?php counter(); ?>人目の訪問者です。</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <br>
+                <p style="color: red; font-size: 36px;">SOS団のサイトへようこそ!</p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <br>
+                <img src="image/logo.gif" width="270">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <br>
+                <p style="font-size: 32px; color: blue;">入り口</p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="font-size: 16px;">
+                <br>
+                メールはこちらから→
+                <a href="mailto:sosdan.kyon0610@gmail.com?body=%E8%BF%94%E4%BF%A1%E3%81%AF%E3%81%AA%E3%81%84%E3%81%8B%E3%82%82%E3%81%97%E3%82%8C%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82"><img src="image/icon_01.gif" width="30" height="30"></a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="font-size: 12px;">
+                <br><br>
+                このホームページはブラウザで１０２４ｘ７６８ピクセル以上で快適にご覧いただけます。<br>文字サイズは、小を推奨します。
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
